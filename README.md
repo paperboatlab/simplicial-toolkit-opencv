@@ -1,4 +1,4 @@
-# paperboat-toolkit-opencv
+# simplicial-toolkit-opencv
 
 The optional image-processing toolkit for [Paperboat](https://github.com/paperboatlab/paperboat):
 filtering, morphology, contour and Hough detection on `image` wires, an `Image` station object and
@@ -15,7 +15,7 @@ Requires the OpenCV development headers (`libopencv-dev` on Debian/Ubuntu, `open
 `opencv` on Homebrew):
 
 ```sh
-paperboat toolkit install opencv --repo https://github.com/paperboatlab/paperboat-toolkit-opencv.git
+paperboat toolkit install opencv --repo https://github.com/paperboatlab/simplicial-toolkit-opencv.git
 ```
 
 Declare `toolkits = ["opencv"]` in `station.toml` and import `"opencv"` in `descriptor.toml`.
@@ -37,7 +37,7 @@ ctest --test-dir build --output-on-failure
 
 ## CI
 
-[![ci](https://github.com/paperboatlab/paperboat-toolkit-opencv/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/paperboatlab/paperboat-toolkit-opencv/actions/workflows/ci.yml?query=branch%3Adev) builds the toolkit both in-tree and as an external SDK plugin against `paperboat` (`dev`) and runs `paperboat check` on `ocv-01`.
+[![ci](https://github.com/paperboatlab/simplicial-toolkit-opencv/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/paperboatlab/simplicial-toolkit-opencv/actions/workflows/ci.yml?query=branch%3Adev) builds the toolkit both in-tree and as an external SDK plugin against `paperboat` (`dev`) and runs `paperboat check` on `ocv-01`.
 
 ## Licence
 

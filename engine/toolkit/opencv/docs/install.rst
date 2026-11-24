@@ -6,7 +6,7 @@ The toolkit needs OpenCV (``libopencv-dev`` or your platform's equivalent):
 .. code-block:: sh
 
    sudo apt-get install -y libopencv-dev
-   paperboat toolkit install opencv --repo https://github.com/paperboatlab/paperboat-toolkit-opencv.git
+   paperboat toolkit install opencv --repo https://github.com/paperboatlab/simplicial-toolkit-opencv.git
 
 A C++ station registers it next to the builtins:
 

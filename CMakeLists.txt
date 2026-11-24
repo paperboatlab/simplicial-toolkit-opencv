@@ -1,4 +1,4 @@
-# paperboat-toolkit-opencv: the optional image-processing toolkit for Paperboat.
+# simplicial-toolkit-opencv: the optional image-processing toolkit for Paperboat.
 #
 # Builds paperboat::toolkit_opencv. Two modes:
 #   1. In-tree: drop/copy this folder into a paperboat checkout at
