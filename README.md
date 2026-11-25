@@ -5,7 +5,7 @@ filtering, morphology, contour and Hough detection on `image` wires, an `Image` 
 an `image` instrument for the Board, built on OpenCV. Optional toolkits are installed by the user
 and never bundled into Paperboat release artifacts.
 
-**Docs:** <https://paperboatlab.github.io/toolkits/opencv/> (sources in
+**Docs:** <https://paperboatlab.org/toolkits/opencv/> (sources in
 [`engine/toolkit/opencv/docs/`](engine/toolkit/opencv/docs/) and each block's `doc.rst`, also in
 the Help window (F1))
 
